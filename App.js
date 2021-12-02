@@ -12,7 +12,7 @@ import Login from './Login.js';
 
 // import Icons from "./Icons";
 const Tab = createMaterialBottomTabNavigator();
-//test Julio
+//test Julio...
 export default function App() {
   return (
     <NavigationContainer>
