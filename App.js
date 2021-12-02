@@ -9,7 +9,6 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Login from './Login.js';
-
 // import Icons from "./Icons";
 const Tab = createMaterialBottomTabNavigator();
 //test Julio...
@@ -53,13 +52,13 @@ export default function App() {
             ),
           }}
         />
-                <Tab.Screen
+        <Tab.Screen
           name='Login'
           component={Login}
           options={{
             tabBarLabel: 'Login',
             tabBarIcon: ({ color }) => (
-              <FontAwesome name='gear' color={color} size={26} />
+              <MaterialCommunityIcons name='home' color={color} size={26} />
             ),
           }}
         />
