@@ -8,10 +8,10 @@ import Home from './Home.js';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import Login from './Login';
+import Login from './Login.js';
 // import Icons from "./Icons";
 const Tab = createMaterialBottomTabNavigator();
-
+//test Julio...
 export default function App() {
   return (
     <NavigationContainer>
@@ -56,11 +56,12 @@ export default function App() {
           options={{
             tabBarLabel: 'Login',
             tabBarIcon: ({ color }) => (
-              <MaterialCommunityIcons name='Login' color={color} size={26} />
+              <MaterialCommunityIcons name='home' color={color} size={26} />
             ),
           }}
         />
       </Tab.Navigator>
+      
     </NavigationContainer>
   );
 
