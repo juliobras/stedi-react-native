@@ -8,19 +8,12 @@ import Home from './Home.js';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-<<<<<<< HEAD
-
-// import Icons from "./Icons";
-const Tab = createMaterialBottomTabNavigator();
-
-=======
 import Login from './Login.js';
 // import Icons from "./Icons";
 const Tab = createMaterialBottomTabNavigator();
 //test Julio...
 //testing again
 //showing Clark
->>>>>>> dd1d0f26d85dd367344b948c8111262fe9f7f0ab
 export default function App() {
   return (
     <NavigationContainer>
@@ -59,8 +52,6 @@ export default function App() {
             ),
           }}
         />
-<<<<<<< HEAD
-=======
         <Tab.Screen
           name='Login'
           component={Login}
@@ -71,7 +62,6 @@ export default function App() {
             ),
           }}
         />
->>>>>>> dd1d0f26d85dd367344b948c8111262fe9f7f0ab
       </Tab.Navigator>
     </NavigationContainer>
   );
