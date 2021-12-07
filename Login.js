@@ -6,11 +6,22 @@ import Bar  from './Bar.js';
 
 const Login = () => {
   return (
-    <View>
+    <View style={styles.bar}>
       <Bar />
-      <Icons />
+     
     </View>
   );
 };
 
 export default Login;
+const styles = StyleSheet.create({
+    bar: {
+        flexDirection: 'row',
+        width: '100%',
+        justifyContent: 'space-evenly',
+        backgroundColor: 'white',
+        height: '100%',
+        alignItems: 'center',
+        
+      },
+})
