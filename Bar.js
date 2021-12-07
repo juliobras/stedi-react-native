@@ -7,7 +7,8 @@ function Bar() {
     return(
         <View style={styles.bar}>
             <AppName />
-            <Setting />  
+            <Setting />
+
         </View>
     )
   }

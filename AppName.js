@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 function AppName() {
     return (
       <View>
-        <Text>STEDI Balance</Text>
+        <Text>WEDO APP</Text>
       </View>
     );
   }
