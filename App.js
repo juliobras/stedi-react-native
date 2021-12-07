@@ -52,8 +52,6 @@ export default function App() {
             ),
           }}
         />
-<<<<<<< HEAD
-=======
         <Tab.Screen
           name='Login'
           component={Login}
@@ -64,7 +62,6 @@ export default function App() {
             ),
           }}
         />
->>>>>>> dd1d0f26d85dd367344b948c8111262fe9f7f0ab
       </Tab.Navigator>
     </NavigationContainer>
   );
