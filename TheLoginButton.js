@@ -3,8 +3,7 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import { Card, ListItem, Button, Icon } from 'react-native-elements';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-/* THIS IS THE LOGIN BUTTON! */
-function Setting() {
+function LoginButton() {
     return(
       <View>
       <Button
@@ -15,4 +14,4 @@ function Setting() {
     )
   }
 
-export default Setting;
+export default LoginButton;
