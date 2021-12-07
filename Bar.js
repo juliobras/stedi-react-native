@@ -8,9 +8,12 @@ function Bar() {
         <View style={styles.bar}>
             <AppName />
             <LoginButton />  
+
         </View>
     )
   }
+
+// Testing Clark Coberly
 
 export default Bar
 
