@@ -9,9 +9,11 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Login from './Login.js';
-
+// import Icons from "./Icons";
 const Tab = createMaterialBottomTabNavigator();
-
+//test Julio...
+//testing again
+//showing Clark
 export default function App() {
   return (
     <NavigationContainer>
