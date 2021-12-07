@@ -13,6 +13,8 @@ function Bar() {
     )
   }
 
+// Testing Clark Coberly
+
 export default Bar
 
 const styles = StyleSheet.create({
