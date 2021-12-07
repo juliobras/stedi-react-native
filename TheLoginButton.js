@@ -4,7 +4,7 @@ import { Card, ListItem, Button, Icon } from 'react-native-elements';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
-function Setting() {
+function LoginButton() {
     return(
       <View>
       <Button
@@ -15,4 +15,4 @@ function Setting() {
     )
   }
 
-export default Setting;
+export default LoginButton;
