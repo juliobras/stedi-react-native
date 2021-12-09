@@ -58,7 +58,7 @@ export default function Timer() {
       <Text style={styles.text}>
         This device tracks your relative speed using your changing velocity and acceleration.
       </Text>
-      {/* this is a random comment for the git pull */}
+      {/* this is a totally random comment for the git pull */}
       <Text style={styles.text}>
         x: {round(x)} y: {round(y)} z: {round(z)}
       </Text>
