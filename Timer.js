@@ -56,6 +56,9 @@ export default function Timer() {
         Accelerometer: (in Gs where 1 G = 9.81 m s^-2)
       </Text>
       <Text style={styles.text}>
+        This device tracks your relative speed using your changing velocity and acceleration.
+      </Text>
+      <Text style={styles.text}>
         x: {round(x)} y: {round(y)} z: {round(z)}
       </Text>
       <View style={styles.buttonContainer}>
