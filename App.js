@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Timer from './Timer.js';
-import SettingsScreen from './SettingsScreen.js';
 import Home from './Home.js';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -37,16 +36,6 @@ export default function App() {
             tabBarLabel: 'Timer',
             tabBarIcon: ({ color }) => (
               <MaterialCommunityIcons name='bell' color={color} size={26} />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name='Settings'
-          component={SettingsScreen}
-          options={{
-            tabBarLabel: 'Settings',
-            tabBarIcon: ({ color }) => (
-              <FontAwesome name='gear' color={color} size={26} />
             ),
           }}
         />
