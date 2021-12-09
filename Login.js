@@ -6,8 +6,8 @@ import Bar  from './Bar.js';
 
 const Login = () => {
   return (
-    <View style={styles.bar}>
-      <Bar/>
+    <View >
+      <Bar style={styles.bar}/>
       <Icons2 />
      
     </View>
@@ -17,6 +17,15 @@ const Login = () => {
 export default Login;
 const styles = StyleSheet.create({
     bar: {
+        flexDirection: 'row',
+        width: '100%',
+        justifyContent: 'space-evenly',
+        backgroundColor: 'white',
+        height: '100%',
+        alignItems: 'center',
+        
+      },
+    Login: {
         flexDirection: 'row',
         width: '100%',
         justifyContent: 'space-evenly',

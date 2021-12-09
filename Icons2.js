@@ -17,11 +17,16 @@ const Icons = () => {
 export default Icons;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'blue',
-    alignItems: 'flex-start',
-    justifyContent: 'space-between',
+
+  card: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
+  card: {
+    margin: '12em',
   },
 
 });
