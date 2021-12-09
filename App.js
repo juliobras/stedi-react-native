@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Counter from './Counter.js';
+import Timer from './Timer.js';
 import SettingsScreen from './SettingsScreen.js';
 import Home from './Home.js';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
@@ -11,9 +11,7 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Login from './Login.js';
 // import Icons from "./Icons";
 const Tab = createMaterialBottomTabNavigator();
-//test Julio...
-//testing again
-//showing Clark
+
 export default function App() {
   return (
     <NavigationContainer>
@@ -33,12 +31,12 @@ export default function App() {
           }}
         />
         <Tab.Screen
-          name='Step Counter'
-          component={Counter}
+          name='Timer'
+          component={Timer}
           options={{
-            tabBarLabel: 'Step Counter',
+            tabBarLabel: 'Timer',
             tabBarIcon: ({ color }) => (
-              <MaterialCommunityIcons name='watch' color={color} size={26} />
+              <MaterialCommunityIcons name='bell' color={color} size={26} />
             ),
           }}
         />
