@@ -3,12 +3,19 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import { Card, Button } from 'react-native-elements';
 import Icons2 from './Icons2.js';
 import Bar  from './Bar.js';
+import LoginButton from "./TheLoginButton";
 
 const Login = () => {
   return (
     <View >
       <Bar style={styles.bar}/>
-      <Icons2 />
+      <Card style={styles.card}>
+        <Image source={require('./image/Profile.png')}></Image>
+      </Card>
+
+
+      <LoginButton />
+     
      
     </View>
   );
@@ -16,15 +23,7 @@ const Login = () => {
 
 export default Login;
 const styles = StyleSheet.create({
-    bar: {
-        flexDirection: 'row',
-        width: '100%',
-        justifyContent: 'space-evenly',
-        backgroundColor: 'white',
-        height: '100%',
-        alignItems: 'center',
-        
-      },
+
     Login: {
         flexDirection: 'row',
         width: '100%',
@@ -34,4 +33,14 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         
       },
+      bar: {
+        flexDirection: 'row',
+        width: '100%',
+        justifyContent: 'space-evenly',
+        backgroundColor: '#66FF66',
+        height: '15%',
+        alignItems: 'center',
+        
+      },
 })
+

@@ -6,9 +6,9 @@ const Icons = () => {
   return (
     
     
-      <Card style={styles.card}>
-        <Image source={require('./image/Profile.png')}></Image>
-      </Card>
+    <Card style={styles.card}>
+    
+    </Card>
     
     
   );
@@ -19,13 +19,10 @@ export default Icons;
 const styles = StyleSheet.create({
 
   card: {
-    flexDirection: 'row',
+    flexDirection: 'column',
     flexWrap: 'wrap',
     alignItems: 'center',
-    justifyContent: 'center',
-  },
-
-  card: {
+    justifyContent: 'flex-start',
     margin: '12em',
   },
 
