@@ -1,10 +1,9 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, TextInput } from 'react-native';
 import { Card, Button } from 'react-native-elements';
 import Icons2 from './Icons2.js';
 import Bar  from './Bar.js';
 import LoginButton from "./TheLoginButton";
-import {TextInput} from "react-native";
 
 const Login = () => {
   return (
@@ -14,22 +13,12 @@ const Login = () => {
         <Image source={require('./image/Profile.png')}></Image>
       </Card>
 
-      <TextInput style={styles.input} onChangeText={onChangeText} value={text} />
-      <TextInput
-        style={styles.input}
-        onChangeText={onChangeNumber}
-        value={number}
-        placeholder="useless placeholder"
-        keyboardType="numeric"
-      />
+      
       <LoginButton />
-     
-     
     </View>
-  );
-};
-
-export default Login;
+  )
+     
+  }
 const styles = StyleSheet.create({
 
     Login: {
