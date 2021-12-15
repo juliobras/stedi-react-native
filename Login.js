@@ -7,13 +7,15 @@ import LoginButton from "./TheLoginButton";
 
 const Login = () => {
   return (
-    <View >
+    <View style={styles.container}>
       <Bar style={styles.bar}/>
       <Card style={styles.card}>
         <Image source={require('./image/Profile.png')}></Image>
       </Card>
       <Text> Phone Number </Text>
-
+      <TextInput style={styles.input}/>
+      <Text> Texted Code </Text>
+      <TextInput style={styles.input}/>
       
       <LoginButton />
     </View>
@@ -22,8 +24,12 @@ const Login = () => {
   }
 
   export default Login
-  
+
 const styles = StyleSheet.create({
+    container: {
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
 
     Login: {
         flexDirection: 'row',
@@ -43,5 +49,12 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         
       },
+      input: {
+        borderWidth: 1,
+        borderColor: '#777',
+        padding: 8,
+        margin: 10,
+        width: 200,
+      }
 })
 
