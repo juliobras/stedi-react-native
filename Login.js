@@ -12,6 +12,7 @@ const Login = () => {
       <Card style={styles.card}>
         <Image source={require('./image/Profile.png')}></Image>
       </Card>
+      <Text> Phone Number </Text>
 
       
       <LoginButton />
@@ -19,6 +20,9 @@ const Login = () => {
   )
      
   }
+
+  export default Login
+  
 const styles = StyleSheet.create({
 
     Login: {
